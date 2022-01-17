@@ -1,0 +1,19 @@
+.image{
+    width: 40%;
+    height: 80%;
+    margin-top: 80px;
+}
+.container{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .image{
+        margin-top: 40px;
+        width: 100px;
+    }
+    .title{
+        margin-top: 30px;
+    }
+  }
