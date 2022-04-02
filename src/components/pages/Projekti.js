@@ -35,8 +35,8 @@ export default function Projekti() {
               </div>
             </div>
             <div className="informations-container">
-              <h2 className="title">{ProjectOne.title}</h2>
-              <p className="sub-title">{ProjectOne.subtitle}</p>
+              <h2 style={{color:"#000"}} className="title">{ProjectOne.title}</h2>
+              <p  style={{color:"#840c0c"}}  className="sub-title">{ProjectOne.subtitle}</p>
               <div className="more-information">
                 <div className="info-and-date-container">
                   <div className="box info">
@@ -84,7 +84,7 @@ export default function Projekti() {
               </div>
             </div>
             <div className="informations-container">
-              <h2 className="title">{ProjectTwo.title}</h2>
+              <h2  style={{color:"#000"}} className="title">{ProjectTwo.title}</h2>
               <p className="sub-title">{ProjectTwo.subtitle}</p>
               <div className="more-information">
                 <div className="info-and-date-container">
@@ -133,7 +133,7 @@ export default function Projekti() {
               </div>
             </div>
             <div className="informations-container">
-              <h2 className="title">{ProjectThree.title}</h2>
+              <h2  style={{color:"#000"}} className="title">{ProjectThree.title}</h2>
               <p className="sub-title">{ProjectThree.subtitle}</p>
               <div className="more-information">
                 <div className="info-and-date-container">
@@ -182,8 +182,8 @@ export default function Projekti() {
               </div>
             </div>
             <div className="informations-container">
-              <h2 className="title">{ProjectFour.title}</h2>
-              <p className="sub-title">{ProjectFour.subtitle}</p>
+              <h2  style={{color:"#000"}} className="title">{ProjectFour.title}</h2>
+              <p  style={{color:"#840c0c"}} className="sub-title">{ProjectFour.subtitle}</p>
               <div className="more-information">
                 <div className="info-and-date-container">
                   <div className="box info">

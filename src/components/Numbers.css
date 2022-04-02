@@ -1,15 +1,15 @@
 .wraper{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin-top: 200px;
+    margin-top: 50px;
 }
 .wraper > div {
-    background: rgb(180, 11, 11);
+    background: #840c0c;
     padding: 1em;
     height: 200px;
   }
 .wraper > div:nth-child(odd) {
-    background: rgb(207, 187, 2);
+    background: #840c0c;
     height: 200px;
     margin-bottom: 200px;
 }

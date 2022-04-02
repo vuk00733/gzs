@@ -20,7 +20,7 @@ export default function Kontakt() {
         >
           <i className="fab fa-typo3 margin" />
           <h2>TELEFON</h2>
-          <h2>062/5342048</h2>
+          <h2>069/1689839</h2>
         </div>
         <div
           data-aos="fade-up"
@@ -30,7 +30,7 @@ export default function Kontakt() {
         >
           <i className="fab fa-typo3 margin" />
           <h2>E-MAIL</h2>
-          <h2>gzs@gmail.com</h2>
+          <h2>grupa.za.spekof@gmail.com</h2>
         </div>
         <div
           data-aos="fade-up"

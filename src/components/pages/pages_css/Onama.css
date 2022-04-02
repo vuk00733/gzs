@@ -33,7 +33,7 @@
   width: 100%;
   position: absolute;
   top: 50px;
-  color: rgb(248, 215, 4);
+  color: #840c0c;
   letter-spacing: -2px;
   text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
 }
@@ -123,12 +123,12 @@
 }
 
 .layer:nth-child(n+11):after {
-  -webkit-text-stroke: 15px rgb(248, 58, 44);
+  -webkit-text-stroke: 15px #840c0c;
   text-shadow: 6px 0 6px #a37e04, 5px 5px 5px #002951, 0 6px 6px #00366b;
 }
 
 .layer:nth-child(n+12):after {
-  -webkit-text-stroke: 15px #a07604;
+  -webkit-text-stroke: 15px #840c0c;
 }
 
 .layer:last-child:after {
@@ -136,7 +136,7 @@
 }
 
 .layer:first-child:after {
-  color: rgb(243, 102, 102);
+  color: #840c0c;
   text-shadow: none;
 }
 
@@ -161,9 +161,11 @@
   justify-content: space-between;
 }
 .wrap .table{
-  background: rgb(236, 206, 160);
+  background: #840c0c;
   width: calc(33% - 20px);
   padding: 30px 30px;
+  border: 40%;
+  border-radius: 10%;
   position: relative;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
   text-align: center;
@@ -191,6 +193,7 @@ p.aj_des {
 
 .table.premium {
   margin: -20px;
+  border-radius: 10%;
 }
 
 .premium_all {
@@ -278,17 +281,17 @@ p.aj_des {
 .basic .price-area,
 .basic .inner-area,
 .basic .head_tab h2{
-  color:red;
+  color:#fff;
 }
 
 .basic .btn button{
-  background: red;
+  background: #840c0c;
   color: #fff;
   margin-top: -75px;
 }
 
 .basic .btn button:hover{
-  background: rgba(240, 101,36);
+  background: #840c0c;
   color: #fff;
 }
 
@@ -296,17 +299,17 @@ p.aj_des {
 .premium .price-area,
 .premium .inner-area,
 .premium .head_tab h2{
-  color:#ba24f0;
+  color:#fff;
 }
 
 .premium .btn button{
-  background: #ba24f0;
+  background: #840c0c;
   color: #fff;
   margin-top: -75px;
 }
 
 .premium .btn button:hover{
-  background: rgba(240, 101,36);
+  background:#fff;
   color: #fff;
 }
 
@@ -314,21 +317,29 @@ p.aj_des {
 .ultimate .price-area,
 .ultimate .inner-area,
 .ultimate .head_tab h2{
-  color:#f5b55a;
+  color:#fff;
 }
 
 .ultimate .btn button{
-  background: #f5b55a;
+  background: #840c0c;
   color: #fff;
   margin-top: -75px;
 }
 
 .ultimate .btn button:hover{
-  background: rgba(240, 101,36);
+  background: #840c0c;
   color: #fff;
 }
-
+.chrono-mobile{
+  display: none;
+}
 @media (max-width:756px){
+  .chrono{
+    display: none;
+  }
+  .chrono-mobile{
+    display: unset;
+  }
   .wrapper .table{
     width: 100%;
   }

@@ -77,7 +77,7 @@ const ProjectDetail = ({ match }) => {
           data-aos-duration="1500"
           data-aos-once="true"
         >
-          <h2>{clickedProject.headline}</h2>
+          <h2 style={{color:"#840c0c"}}>{clickedProject.headline}</h2>
         </div>
       </div>
       <DividerProjects {...clickedProject} />
@@ -90,6 +90,7 @@ const ProjectDetail = ({ match }) => {
             className="person-img"
             src={`../${clickedGroupImages[0]}`}
             alt=""
+            style={{width: '400px', height: '300px',marginBottom:'10px'}}
           />
           <p>{clickedGroupEmails[0]}</p>{" "}
           <a href={clickedGroupLinks[0]}>
@@ -102,6 +103,7 @@ const ProjectDetail = ({ match }) => {
             className="person-img"
             src={`../${clickedGroupImages[1]}`}
             alt=""
+            style={{width: '400px', height: '300px',marginBottom:'10px'}}
           />
           <p>{clickedGroupEmails[1]}</p>{" "}
           <a href={clickedGroupLinks[1]}>

@@ -5,7 +5,6 @@ import author2 from "../authors/author2.png";
 import author3 from "../authors/author3.png";
 import author4 from "../authors/author4.png";
 import author5 from "../authors/author5.png";
-import { Link } from "react-router-dom";
 
 function CardsHome() {
   return (

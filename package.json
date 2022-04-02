@@ -9,8 +9,10 @@
     "aos": "^3.0.0-beta.6",
     "react": "^16.13.1",
     "react-animated-numbers": "^0.9.0",
+    "react-chrono": "^1.13.2",
     "react-dom": "^16.13.1",
     "react-image-gallery": "^1.2.7",
+    "react-responsive-timeline": "^0.1.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-slick": "^0.28.1",
@@ -36,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

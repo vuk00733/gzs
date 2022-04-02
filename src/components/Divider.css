@@ -33,7 +33,7 @@
   }
   
   .top-line {
-    color: #f00946;
+    color:  #840c0c;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -52,11 +52,11 @@
   }
   
   .dark {
-    color: #dbce13;
+    color: #840c0c;
   }
   
   .darkBg {
-    background: linear-gradient(90deg, rgb(180, 11, 11) 0%, rgb(207, 187, 2) 100%);
+    background: #ccc235;
   }
   
   .divider > h1 {

@@ -4,8 +4,8 @@ import Numbers from '../Numbers';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Divider from '../Divided';
-import CardsHome from '../CardsHome';
 import Sponsors from '../Sponsors';
+import Groups from '../Groups';
 import { homeObjOne, homeObjTwo, homeObjThree} from '../Data';
 import { SponsorOne, FriendOne, PartnerOne } from '../Data';
 
@@ -13,12 +13,11 @@ function Home() {
   return (
     <>
       <HeroSection />
-      {/*<Cards />*/}
+      <Numbers />
       <Divider {...homeObjThree} />
       <Divider {...homeObjOne} />
-      <Numbers />
       <Divider {...homeObjTwo} />
-      <CardsHome />
+      <Groups />
       <Sponsors {...SponsorOne} />
       <Sponsors {...FriendOne} />
       <Sponsors {...PartnerOne} />

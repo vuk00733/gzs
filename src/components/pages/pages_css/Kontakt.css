@@ -7,7 +7,7 @@
   grid-gap: 10px;
 }
 .cont > div {
-  background: linear-gradient(90deg, rgb(180, 11, 11) 0%, rgb(207, 187, 2) 100%);
+  background-color: #840c0c;
   padding: 1em;
   height: 200px;
   border: burlywood;
@@ -15,8 +15,8 @@
   box-shadow: 10px 10px 5px grey;
 }
 .cont > div:nth-child(odd) {
-  background: linear-gradient(90deg, rgb(180, 11, 11) 0%, rgb(207, 187, 2) 100%);
-    height: 200px;
+  background-color: #840c0c;
+  height: 200px;
   margin-bottom: 200px;
   box-shadow: 10px 10px 5px grey;
 }
@@ -42,7 +42,9 @@
   font-size: 20px;
   color: rgb(7, 63, 63);
 }
+
 @media screen and (max-width: 768px) {
+  
   .cont {
     display: grid;
     grid-template-rows: repeat(3, 1fr);

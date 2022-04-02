@@ -41,11 +41,16 @@
   }
 .person-img{
     width: 300px;
-    height: 200px;
+    height: 400px;
 }
 .person-icon{
-    font-size: 50px;
-    background: white;
+    font-size: 1.6em;
+    width: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+    background: #840c0c;
+    color: #fff;
+    border-radius: 0.8em; /* or 50% width & line-height */
 }
 @media screen and (max-width: 768px) { 
     .info-wrapper{

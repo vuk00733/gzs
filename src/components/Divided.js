@@ -56,7 +56,7 @@ function Divider({
                   {description}
                 </p>
                 <Link className="centered" to={buttonLink}>
-                  <Button buttonSize="btn--wide" buttonColor="red">
+                  <Button buttonSize="btn--wide" buttonColor="#red">
                     {buttonLabel}
                   </Button>
                 </Link>

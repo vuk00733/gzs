@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Numbers() {
-  const num = [64, 2012, 9,120000];
+  const num = [64, 2012, 9,2113948];
   useEffect(() => {
     AOS.init({});
   }, []);
@@ -14,7 +14,7 @@ function Numbers() {
       <div>
         <AnimatedNumbers
           animateToNumber={num[0]}
-          fontStyle={{ fontSize: 32, color: "#000" }}
+          fontStyle={{ fontSize: 32, color: "#fff" }}
           configs={(number, index) => {
             return { mass: 1, tension: 230 * (index + 1), friction: 140 };
           }}
@@ -25,7 +25,7 @@ function Numbers() {
         <div>
           <AnimatedNumbers
             animateToNumber={num[1]}
-            fontStyle={{ fontSize: 32, color: "#000" }}
+            fontStyle={{ fontSize: 32, color: "#fff" }}
             configs={(number, index) => {
               return { mass: 1, tension: 230 * (index + 1), friction: 140 };
             }}
@@ -37,7 +37,7 @@ function Numbers() {
         <div>
           <AnimatedNumbers
             animateToNumber={num[2]}
-            fontStyle={{ fontSize: 32, color: "#000" }}
+            fontStyle={{ fontSize: 32, color: "#fff" }}
             configs={(number, index) => {
               return { mass: 1, tension: 230 * (index + 1), friction: 100 };
             }}
@@ -48,7 +48,7 @@ function Numbers() {
       <div>
           <AnimatedNumbers
             animateToNumber={num[3]}
-            fontStyle={{ fontSize: 32, color: "#000" }}
+            fontStyle={{ fontSize: 32, color: "#fff" }}
             configs={(number, index) => {
               return { mass: 1, tension: 230 * (index + 1), friction: 100 };
             }}

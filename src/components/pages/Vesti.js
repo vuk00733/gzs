@@ -30,7 +30,7 @@ export default function Vesti() {
               </div>
             </div>
             <div className="informations-container">
-              <h2 className="title">{NewsOne.title}</h2>
+              <h2 style={{color:"#840c0c"}} className="title">{NewsOne.title}</h2>
               <p style={{fontSize:"12px"}} className="sub-title">{NewsOne.subtitle}</p>
               <div className="more-information">
                 <div className="info-and-date-container">
