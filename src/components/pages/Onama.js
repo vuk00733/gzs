@@ -411,7 +411,6 @@ export default function Onama() {
         <Groups></Groups>
       </div>
       <Sponsors {...SponsorOne} />
-      <h1 style={{ marginTop: "100px" }}>Naši resori</h1>
       <Footer />
     </>
   );

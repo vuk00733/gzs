@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <h2 className="footer-subscription-heading">
-        Najveća studentska organizacija na Ekonomskom fakultetu, čiji članovi čine čak 87% Studentskog parlamenta
+        Najveća studentska organizacija na Ekonomskom fakultetu, čiji članovi čine svih 100% Studentskog parlamenta
         </h2>
         <h2 className="footer-subscription-text">
         Grupa za SPEKOF
